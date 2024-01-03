@@ -1,0 +1,84 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: blue;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    padding-top:3rem;
+}
+main{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    gap: 2rem;
+    margin: 3rem auto;
+    width: 60%;
+    height: 500px;
+    
+}
+form{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+}
+h4{
+    margin-left: 1rem;
+    font-size: large;
+}
+
+.input{
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: large;
+    color: #e5e5e5;
+    border-radius: 1px solid #dddcdccc;
+    border-bottom-width:3px ;
+}
+.terms{
+    display: flex;
+    gap: 1rem;
+}
+.Register{
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+    border: 1px solid #041953;
+    font-size: large;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+
+}
+.login{
+    border: none;
+    color:#071b55 ;
+    font-size: large;
+}
+.underline{
+    border-bottom: 2px solid blue;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+}
+    
+    
+}
